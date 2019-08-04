@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":app" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" useProjectSettings="false" isTestModule="false" externalProjectId=":app">
+        <sourceSets>
+          <sourceSet>CallAPIMmp.app.commonMain</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions-runtime/1.3.31/721b62ccbafe51a284ca0d1c5dcfdce8cedd4255/kotlin-android-extensions-runtime-1.3.31.jar:/Users/aycap/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.31/11289d20fd95ae219333f3456072be9f081c30cc/kotlin-stdlib-1.3.31.jar:/Users/aycap/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.31/20c34a04ea25cb1ef0139598bd67c764562cb170/kotlin-stdlib-common-1.3.31.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/ebad4a9d7e16120a78bcd2a7d1bfdffe/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4b589b7461befb36d21cfaf71bfd1a64/jars/classes.jar:/Users/aycap/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/d2d22b7f8e44caf766df0bd2456d3807/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/29bde1f102adea06ffdf84c35a359598/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/787b450ec316f1089932cda93a91daef/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/a7106eeccc71e92e007b84df924692de/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/8056de3ffbc85f563e9c748a2b264bfa/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/99737071a727461d6aac526433e334a5/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3b24816dba2c9ccb323f4b7e30ce43b8/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/7fa2762034a5bda1225b57865abc58c4/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/643f135135daefb0d7eb34fa27230f10/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/57ea953f71580adefbe49bb262910f16/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/3ed5f3a5924ab3b7f50376605f1e20e6/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/0ed2bb579ba9d9afbc53ada04a94f592/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/7503e9a336deae5aff44fca78d9541e8/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/441ef78ba587b6ba929572f5266f4767/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/7d0ceca30ada5292e19f40e644907142/jars/classes.jar:/Users/aycap/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/2b87917abd5d37cf6de8177ad6c65864/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bcefe32bb894857440a2bb77975b259b/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/18c55f39386c784d7eedef1e54b1651b/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/89ac7c0af416295cf79d4b92063312c9/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9074e85b64a37dbc9cfe5b4b44bf4567/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/2dbacfdc635481806609b533137e8d57/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/acbc405c0de07cb1b9556560ef064898/jars/classes.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/83fe1b6fbf43d8a18d56bff877e8fa7e/jars/classes.jar:/Users/aycap/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/483d28780bb8c4ed3f3b2f6aaa3d16d5/jars/classes.jar:/Users/aycap/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar:/Users/aycap/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/34bffe345e672303df28339b69568e50/jars/classes.jar:/Users/aycap/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar:/Users/aycap/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar:/Users/aycap/Library/Android/sdk/platforms/android-28/android.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="app_debug" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.android:configuration=rO0ABXeHAAAAAwAIZmVhdHVyZXMAAAABAAV2aWV3cwAHcGFja2FnZQAAAAEABnNhbXBsZQAHdmFyaWFudAAAAAEASm1haW47L1VzZXJzL2F5Y2FwL0RldmVsb3BtZW50L01FL011bHRpcGxhdGZvcm0vQ2FsbEFQSU1tcC9hcHAvc3JjL21haW4vcmVz" />
+            </array>
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.3.31/57bdeb88c9265052448a7a8422ed64ad92e9b262/kotlin-android-extensions-1.3.31.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-compiler-embeddable/1.3.31/504c304a8e957fdca51be5466560454c7ce80208/kotlin-scripting-compiler-embeddable-1.3.31.jar" />
+            </array>
+          </option>
+          <option name="multiPlatform" value="true" />
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+</module>
